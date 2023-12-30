@@ -9,7 +9,7 @@ struct Nod {
 	struct Nod* stanga;
 	struct Nod* dreapta;
 };
-
+//functie pentru crearea unui nou nod ina arbore
 struct Nod* creareNod(int val) {
 	struct Nod* nod = (struct Nod*)malloc(sizeof(struct Nod));
 	nod->val = val;
@@ -73,6 +73,7 @@ void nivelOrder(struct Nod* radacina) {
 }
 
 int main() {
+	//crearea arborelui binar ordonat
 	struct Nod* radacina = creareNod(5);
 	radacina->stanga = creareNod(3);
 	radacina->dreapta = creareNod(8);
