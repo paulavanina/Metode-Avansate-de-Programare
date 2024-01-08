@@ -12,6 +12,6 @@ nivelOrder: Implementează traversarea pe nivele a arborelui, cunoscută și sub
 #Mediul de dezvoltare
 Limbaj: C 
 IDE: Visual Studio Code
-#Authors
+# Authors
 Proiect realizat de Bejera Paula-Vanina
-#Bibliografie
+# Bibliografie
