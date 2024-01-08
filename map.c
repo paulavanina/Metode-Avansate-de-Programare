@@ -3,7 +3,6 @@ elemente aleatorii. Să se afișeze elementele în urmă traversării arborelui 
 
 #include <stdio.h>
 #include <stdlib.h>
-
 struct Nod {
 	int val;
 	struct Nod* stanga;
@@ -16,7 +15,6 @@ struct Nod* creareNod(int val) {
 	nod->stanga = nod->dreapta = NULL;
 	return nod;
 }
-
 void preordine(struct Nod* radacina) {
 	if (radacina != NULL) {
 		printf("%d ", radacina->val);
@@ -24,7 +22,6 @@ void preordine(struct Nod* radacina) {
 		preordine(radacina->dreapta);
 	}
 }
-
 void inordine(struct Nod* radacina) {
 	if (radacina != NULL) {
 		inordine(radacina->stanga);
@@ -32,7 +29,6 @@ void inordine(struct Nod* radacina) {
 		inordine(radacina->dreapta);
 	}
 }
-
 void postordine(struct Nod* radacina) {
 	if (radacina != NULL) {
 		postordine(radacina->stanga);
@@ -40,7 +36,6 @@ void postordine(struct Nod* radacina) {
 		printf("%d ", radacina->val);
 	}
 }
-
 int inaltime(struct Nod* radacina) {
 	if (radacina == NULL)
 		return 0;
@@ -53,7 +48,6 @@ int inaltime(struct Nod* radacina) {
 		else return(dreapta_inaltime + 1);
 	}
 }
-
 void afisareNivel(struct Nod* radacina, int nivel) {
 	if (radacina == NULL)
 		return;
@@ -64,7 +58,6 @@ void afisareNivel(struct Nod* radacina, int nivel) {
 		afisareNivel(radacina->dreapta, nivel - 1);
 	}
 }
-
 void nivelOrder(struct Nod* radacina) {
 	int h = inaltime(radacina);
 	int i;
@@ -90,6 +83,5 @@ int main() {
 	postordine(radacina);
 	printf("\nNivel: ");
 	nivelOrder(radacina);
-
 	return 0;
 }
