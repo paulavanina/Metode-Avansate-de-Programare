@@ -9,7 +9,7 @@ preordine: Realizează o traversare în preordine a arborelui (radacina-stânga-
 inordine: Efectuează o traversare în inordine a arborelui (stânga-radacina-dreapta), astfel încât valorile sunt afișate în ordine crescătoare în cazul unui arbore binar ordonat.
 postordine: Realizează o traversare în postordine a arborelui (stânga-dreapta-radacina).
 nivelOrder: Implementează traversarea pe nivele a arborelui, cunoscută și sub numele de nivel-order traversal.
-#Mediul de dezvoltare
+# Mediul de dezvoltare
 Limbaj: C 
 IDE: Visual Studio Code
 # Authors
