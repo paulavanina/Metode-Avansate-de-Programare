@@ -15,3 +15,5 @@ IDE: Visual Studio Code
 # Authors
 Proiect realizat de Bejera Paula-Vanina
 # Bibliografie
+https://www.pbinfo.ro/articole/25641/arbori-binari
+https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/lab-08
