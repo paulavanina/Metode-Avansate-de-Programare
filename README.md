@@ -17,6 +17,9 @@ Funcțiile preordine, inordine, postordine și nivelOrder implementează travers
 - postordine: Realizează o traversare în postordine a arborelui (stânga-dreapta-rădăcină).
 - nivelOrder: Implementează traversarea pe nivele a arborelui, cunoscută și sub numele de nivel-order traversal.
 
+ Acest program se bazează pe utilizarea alocării dinamice pentru a stoca valorile. La încheierea programului, memoria alocată dinamic este eliberată.
+Manipularea și traversarea arborelui sunt realizate cu ajutorul pointerilor și a funcțiilor recursive.
+
 ## Mediul de dezvoltare
 
 - Limbaj: C 
