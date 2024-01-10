@@ -1,19 +1,33 @@
-# Implementarea traversarilor arborilor binari ordonati
-Arborele binar ordonat este un tip special de arbore binar in car elementele sunt ordonate intr-un anumit mot.De obicei, intr-un arbore binar ordonat, elementele din subarborele stang sunt mai mici dau egale decat cele din nodul parinte, iar cel din subarborele drept sunt mai mari sau egale. Aceasta structura de date este utila pentru ca permite cautarea rapida a elementelor intr-o colectie ordonata, avand o complexitate a timpului redusa pentru operatii precum cautare, inserare si stergere. 
-# Modul de implementare
-  Proiectul implementeaza un program in limbajul C pentru traversarea unui arbore binar ordonat, populat cu elemente care sunt generate aleatoriu, ilustrand un exemplu practic al structurii si manipularii unui arbore binar ordonat.
-Am definit o structura 'Nod' pentru a reprezenta un nod din arbore, cu un atribut pentru valoare si pointeri catre subarborii sai stang si drept.
-  Functia 'creareNod' este folosita pentru a crea un nou nod in arbore si pentru a initializa valorile sale.
-  Funcțiile preordine, inordine, postordine și nivelOrder implementează traversările specifice ale arborelui binar ordonat.
-preordine: Realizează o traversare în preordine a arborelui (radacina-stânga-dreapta).
-inordine: Efectuează o traversare în inordine a arborelui (stânga-radacina-dreapta), astfel încât valorile sunt afișate în ordine crescătoare în cazul unui arbore binar ordonat.
-postordine: Realizează o traversare în postordine a arborelui (stânga-dreapta-radacina).
-nivelOrder: Implementează traversarea pe nivele a arborelui, cunoscută și sub numele de nivel-order traversal.
-# Mediul de dezvoltare
-Limbaj: C 
-IDE: Visual Studio Code
-# Authors
+# Implementarea traversărilor arborilor binari ordonați
+
+Arborele binar ordonat este un tip special de arbore binar în care elementele sunt ordonate într-un anumit mod. De obicei, într-un arbore binar ordonat, elementele din subarborele stâng sunt mai mici sau egale decât cele din nodul părinte, iar cele din subarborele drept sunt mai mari sau egale. Această structură de date este utilă pentru că permite căutarea rapidă a elementelor într-o colecție ordonată, având o complexitate a timpului redusă pentru operații precum căutare, inserare și ștergere.
+
+## Modul de implementare
+
+Proiectul implementează un program în limbajul C pentru traversarea unui arbore binar ordonat, populat cu elemente generate aleatoriu, ilustrând un exemplu practic al structurii și manipulării unui arbore binar ordonat.
+
+Am definit o structură 'Nod' pentru a reprezenta un nod din arbore, cu un atribut pentru valoare și pointeri către subarborii săi stâng și drept.
+
+Functia 'creareNod' este folosită pentru a crea un nou nod în arbore și pentru a inițializa valorile sale.
+
+Funcțiile preordine, inordine, postordine și nivelOrder implementează traversările specifice ale arborelui binar ordonat:
+
+- preordine: Realizează o traversare în preordine a arborelui (rădăcină-stânga-dreapta).
+- inordine: Efectuează o traversare în inordine a arborelui (stânga-rădăcină-dreapta), astfel încât valorile sunt afișate în ordine crescătoare în cazul unui arbore binar ordonat.
+- postordine: Realizează o traversare în postordine a arborelui (stânga-dreapta-rădăcină).
+- nivelOrder: Implementează traversarea pe nivele a arborelui, cunoscută și sub numele de nivel-order traversal.
+
+## Mediul de dezvoltare
+
+- Limbaj: C 
+- IDE: Visual Studio Code
+
+## Authors
+
 Proiect realizat de Bejera Paula-Vanina
-# Bibliografie
-https://www.pbinfo.ro/articole/25641/arbori-binari
-https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/lab-08
+
+## Bibliografie
+
+- [https://www.pbinfo.ro/articole/25641/arbori-binari](https://www.pbinfo.ro/articole/25641/arbori-binari)
+- [https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/lab-08](https://ocw.cs.pub.ro/courses/sd-ca/laboratoare/lab-08)
+
