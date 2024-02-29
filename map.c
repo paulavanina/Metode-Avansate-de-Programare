@@ -1,5 +1,6 @@
 /*Traversarea arborilor binari ordonați – Se dă un arbore binar ordonat care se populează cu
-elemente aleatorii. Să se afișeze elementele în urmă traversării arborelui în „pre-ordine”, „inordine”, „post-ordine” și pe „nivel” (level-order traversal).*/
+elemente aleatorii. Să se afișeze elementele în urmă traversării arborelui în „pre-ordine”,
+„inordine”, „post-ordine” și pe „nivel” (level-order traversal).*/
 
 #include <stdio.h>
 #include <stdlib.h>
